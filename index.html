@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D Naveen Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <nav>
+            <div class="logo">D Naveen</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1>Hello, I'm D Naveen</h1>
+        <p>Computer Science and Engineering graduate | Web Developer | Passionate about building interactive web apps.</p>
+        <img src="/portfolio-website/images/naveen.jpg" alt="Profile Picture">
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-cards">
+            <div class="card">
+                <h3>Project 1</h3><br>
+                <h3>To-Do App</h3><br>
+                <p>React.js based To-Do application with add, edit, delete features.</p>
+                <a href="https://luxury-profiterole-b613dc.netlify.app/"target="_blank">Live Demo</a><span> |</span>
+                <a href="https://github.com/dalinaveen/To-Do-App.git" target="_blank">Source Code</a>
+            </div>
+            <div class="card">
+                <h3>Project 2</h3><br>
+                <h3> Student Management System</h3><br>
+                <p>Python CLI-based system to manage student records using MySQL.</p>
+                <a href="https://student-mangement-system-bli2.onrender.com/"target='_blank'>live Demo</a><span> |</span>
+                <a href="https://github.com/dalinaveen/student-mangement-system.git" target="_blank">Source Code</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+            <p id="formMessage"></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 D Naveen. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
